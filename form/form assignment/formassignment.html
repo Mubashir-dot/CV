@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Registration Form</title>
+</head>
+<body>
+    <form action="../profile.html" method="GET">
+        <label>Username : <input placeholder="Enter Your Name" type="text" name="username"></label><br/>
+        <br/>
+        <label>Password  : <input placeholder="Enter Your Password" type="password" name="pass"></label><br/>
+        <br/>
+        <label>Date of Birth : <input placeholder="dd/mm/yyyy" type="Date" name="Dob"></label><br/>
+        <br/>
+        <label>Web URL : <input placeholder="Enter Keyword" url" name="url"></label><br/>
+        <br/>
+        <label>Address : <input placeholder="Enter Your Current Address" type="text" name="address"></label><br/>
+        <br/>
+        <label>City :
+            <select>
+                <option value="Karachi">Karachi</option>
+                <option value="Lahore">Lahore</option>
+                <option value="Quetta">Quetta</option>
+                <option value="Peshawar">Peshawar</option>
+                <option value="Islamabad">Islamabad</option>
+            </select>
+        </label><br/>
+        <br/>
+        <label>State : <input type="text" name="State"></label><br/>
+        <br/>
+        <label>Zip Code : <input type="number" name="Zip"></label><br/>
+        <br/>
+        <label>Magazine :
+            <select multiple>
+                <option value="Newsweek">Newsweek</option>
+                <option value="Time" selected>Time</option>
+                <option value="Fortune">Fortune</option>
+                <option value="TV Guide">TV Guide</option>
+            </select>
+        </label><br/>
+        <br/>
+        <fieldset>
+            <legend>Contact Details</legend>
+            <label>Email : <input placeholder="Enter Your Accurate E-mail" type="email" name="e-mail" size="24"></label><br/>
+            <label>Mobile : <input placeholder="Enter Your Correct Mobile Number" type="text" name="mobile no" size="23"></label><br/>
+            <label>Telephone : <input type="text" name="Telephone"></label><br/>
+        </fieldset><br/>
+        <br/>   
+        <label>Additional Comments : <textarea name="Comments" cols="20" rows="3.5"></textarea></label><br/>
+        <br/>
+        <br/>
+        <label>Upload Your Profile Picture : <input type="file" name="Profile Picture"></label><input type="submit" name="Upload" value="Upload"><br/>
+        <br/>
+        <input type="submit" name="send your order" value="Send Your Order"><br/>
+        <hr/>
+        <label>Email Address: <input type="email" name="e-address"> </label><br/>
+        <br/>
+        <label>Subscription : <input type="radio" name="no of years" value="1 year">1 year <input type="radio" name="no of years" value="2 years">2 years</label><br/>
+        <br/>
+        <input type="checkbox"><label>Yes, Put me on the list</label><br/>
+        <br/>
+        <input type="submit" name="Subscribe" value="Subscribe">
+
+
+
+
+    </form>
+</body>
+</html>
