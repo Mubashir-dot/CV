@@ -5,10 +5,39 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Registration Form</title>
+    <!-- <link rel="stylesheet" href="csspractice.css" type="text/css"> -->
 </head>
+<style>
+    h1{
+        text-align: center;
+        color: blue;
+    }
+    .center{
+        color: blueviolet
+    }
+    .large{
+        /* color: rgb(155, 255, 55); */
+        font-size: 150%;
+        
+    }
+    .border1{
+        border: 5px solid tomato;
+
+    }
+    body{
+        background-image: url("beautiful-hologram-water-color-frame-png_119551.jpg") ;
+    }
+    
+
+
+
+</style>
 <body>
     <form action="../profile.html" method="GET">
-        <label>Username : <input placeholder="Enter Your Name" type="text" name="username"></label><br/>
+        <h1>REGISTRATION FORM</h1>
+        <p class="center">this is para 1</p>
+        <p class="center large">this is para 2</p>
+        <label  >Username : <input class="border1" placeholder="Enter Your Name" type="text" name="username"></label><br/>
         <br/>
         <label>Password  : <input placeholder="Enter Your Password" type="password" name="pass"></label><br/>
         <br/>
@@ -30,7 +59,7 @@
         <br/>
         <label>State : <input type="text" name="State"></label><br/>
         <br/>
-        <label>Zip Code : <input type="number" name="Zip"></label><br/>
+        <label>Zip Code : <input type="text" name="Zip"></label><br/>
         <br/>
         <label>Magazine :
             <select multiple>

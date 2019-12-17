@@ -1,0 +1,68 @@
+/* basic syntax of css
+selector {
+    property: value
+} */
+/* types of selector
+   element selector 
+   p {
+       background: pink;
+   }*/
+   /* id selector 
+   #mypara {
+       background: yellowgreen;
+   }*/
+   /* class selector
+   .para {
+       background: yellow;
+   } */
+   /*li, div{
+       color: rgb(45, 109, 165)
+
+    } */
+    .me{
+        background-image: url('./img/image2');
+        height: 100px 
+
+        
+    }
+     .me{/*
+        border-style: solid;
+        border-width: 2px;
+        border-color: red;
+        border-top-style: dashed; */
+        /* short way to define border */
+        border: 5px solid green;
+        border-radius: 18px;
+        /* margin: 66px;
+        margin-top: 52px;
+        margin-right: 60px;
+        margin-left: 60px; */
+        /* margin: 0px; */
+        /* short way to put margin */
+        /* margin: 23px 67px 56px 0; */
+               /* top  right bottom left     */
+        /* auto ki property s margin khd apni jgh manage krleta hy */
+        /* margin:auto;
+        width: 50%;
+        height: 100px;                    */
+        margin:inherit;
+     } 
+    .nav{
+        background: rgb(81, 156, 52);
+
+    } 
+    .items{
+        background: rgb(34, 33, 131);
+
+    }
+    .item{
+        background: rgb(196, 159, 183);
+
+    }
+
+
+
+    
+
+ 
+
