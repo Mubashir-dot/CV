@@ -13,7 +13,9 @@
         }
         td,th{
             padding: 1em;
-            border-color: yellow;
+            border-color: black;
+            text-align: right;
+            background-color: silver;
         }
         th{
             text-transform: uppercase;
@@ -25,14 +27,22 @@
         }
         th{
             border: dotted;
+            background-color: silver;
+
         }
         .main{
             border: double;
         }
+        td:hover{
+            background-color: lightblue;
+        }
+        td{
+            /* empty-cells: hide; */
+        }
     </style>
 </head>
 <body>
-    <h3>Number of flats maintainence still not received</h3>
+    <h3>Number of flats of which maintainence still not received</h3>
     <table border="1px">
         <tr>
             <th class="main">Homeland Appt</th>
